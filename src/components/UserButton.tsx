@@ -46,7 +46,7 @@ const UserButton = () => {
           <Avatar className="size-10 hover:opacity-75 transition">
             <AvatarImage
               className="size-10 hover:opacity-75 transition"
-              src={user?.profile_photo || "/default-avatar.png"}
+              src={user?.profile_photo}
             />
             <AvatarFallback className="bg-red-800 text-white">
               {avatarFallback}
@@ -77,4 +77,4 @@ const UserButton = () => {
   )
 };
 
-export default UserButton;
+export default UserButton
