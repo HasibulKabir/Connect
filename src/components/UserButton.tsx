@@ -41,12 +41,12 @@ const UserButton = () => {
   return (
     <DropdownMenu modal={false}>
       <DropdownMenuTrigger className="outline-none relative float-right p-4 md:p-8">
-        <div className="flex gap-4 items-center">
+        <div className="flex gap-4 items-center text-white">
           <span>{user?.name}</span>
           <Avatar className="size-10 hover:opacity-75 transition">
             <AvatarImage
               className="size-10 hover:opacity-75 transition"
-              src={user?.profile_photo}
+              src={"/default_user.png"}
             />
             <AvatarFallback className="bg-red-800 text-white">
               {avatarFallback}
@@ -77,4 +77,4 @@ const UserButton = () => {
   )
 };
 
-export default UserButton
+export default UserButton;

@@ -37,7 +37,7 @@ export default function EventHome({ events }: { events: Event[] }) {
 
   return (
     <section className="bg-white rounded-xl p-6 shadow-md relative">
-      <h2 className="text-2xl font-bold mb-6 text-green-700 text-center">Upcoming Events</h2>
+      <h2 className="text-2xl font-bold mb-6 text-red-800 text-center">Upcoming Events</h2>
 
       <div className="flex items-center justify-center gap-4 relative">
         {startIndex > 0 && (

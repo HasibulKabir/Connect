@@ -167,7 +167,7 @@ const SignUpForm = () => {
           </form>
 
           <Separator />
-          <div className="flex my-2 justify-evenly mx-auto items-center">
+          {/*<div className="flex my-2 justify-evenly mx-auto items-center">
             <Button
               disabled={false}
               onClick={(e) => { handleProvider(e, "google") }}
@@ -187,7 +187,7 @@ const SignUpForm = () => {
             >
               <FaGithub className="size-8 left-2.5 top-2.5" />
             </Button>
-          </div>
+          </div>*/}
 
           <p className="text-center text-sm mt-2 text-muted-foreground">
             Already have an account?
