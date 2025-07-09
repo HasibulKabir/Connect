@@ -1,4 +1,4 @@
-process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = "0"; // for self-signed certificates
+
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";

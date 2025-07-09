@@ -21,7 +21,7 @@ export default function AboutFull() {
       <section className="max-w-4xl mx-auto px-6">
         <h2 className="text-3xl font-semibold text-gray-800 mb-4">Who We Are</h2>
         <p className="text-gray-700 leading-relaxed text-justify">
-          The Mawlana Bhashani Science and Technology University Alumni Association connects graduates and empowers
+          The Mawlana Bhashani Science and Technology University CSE Alumni Association connects graduates and empowers
           members through professional events, mentoring, and service to MBSTU,CSE and society. We partner with global
           alumni networks, support student development, and strengthen bonds through networking, scholarships, and
           community projects.
